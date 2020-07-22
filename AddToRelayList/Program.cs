@@ -14,7 +14,7 @@ namespace AddToRelayList
             Console.WriteLine();
             Console.WriteLine(string.Format("{0} [--add \"IP, mask\"] [--export filename] [--exportFromIms filename] [--compare filename] [--import filename] [--status] [--start] [--stop] [--restart]", Environment.GetCommandLineArgs()[0]));
             Console.WriteLine("Przykłady użycia programu:");
-            Console.WriteLine(string.Format("\t--add \"10.9.121.210, 255.255.255.255\"              Dodanie pojedyńczego adresu"));
+            Console.WriteLine(string.Format("\t--add \"10.9.121.210, 255.255.255.255\"            Dodanie pojedyńczego adresu"));
             Console.WriteLine(string.Format("\t--export myBackup.txt                              Eksport adresów dodanych do relaya"));
             Console.WriteLine(string.Format("\t--exportFromIms imsBackup.txt                      Eksport adresów z IMS"));
             Console.WriteLine(string.Format("\t--import IpList.txt                                Import adresów z pliku tekstowego"));
