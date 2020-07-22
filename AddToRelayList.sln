@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddToRelayList", "AddToRelayList\AddToRelayList.csproj", "{7C68F7F6-FB05-45F1-BD81-6696A7087A85}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{06190F29-7362-4390-97E9-4C43894DED47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C68F7F6-FB05-45F1-BD81-6696A7087A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C68F7F6-FB05-45F1-BD81-6696A7087A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C68F7F6-FB05-45F1-BD81-6696A7087A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C68F7F6-FB05-45F1-BD81-6696A7087A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06190F29-7362-4390-97E9-4C43894DED47}.Debug|Any CPU.ActiveCfg = Debug
+		{06190F29-7362-4390-97E9-4C43894DED47}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0295485F-EDE0-4AB7-B4A9-13E531FD6B6E}
+	EndGlobalSection
+EndGlobal
